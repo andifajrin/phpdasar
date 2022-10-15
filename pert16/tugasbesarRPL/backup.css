@@ -1,0 +1,54 @@
+body {
+    background-color: #ffffff;
+}
+
+h1 {
+    font-family: calibri;
+    letter-spacing: 3px;
+    margin: auto auto auto auto;
+}
+
+.line {
+    background: rgb(255, 255, 255);
+    height: 2px;
+    width: 100px;
+    margin: auto auto 30px auto;
+    
+}
+
+.container {
+    border-radius: 0.3cm;
+    width: 300px;
+    padding: 20px;
+    background: #00cec9; 
+    color: white;
+    /* code di bawah ini akan membuat div berada di tengah-tengah */
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 1.5cm;
+  }
+
+input {
+    background-color: white;
+    border-radius: 1cm;
+    height: 20px;
+  }
+
+.login {
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 15px;
+    background:#ffffff;
+    color: rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 7px 20px;
+    margin: 10px;
+    float: right;
+}
+
+
+label {
+    font-family: calibri;
+}
